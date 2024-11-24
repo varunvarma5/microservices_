@@ -7,6 +7,7 @@ import lombok.*;
 @Getter @Setter @ToString @AllArgsConstructor @NoArgsConstructor
 public class Accounts extends  BaseEntity {
 
+    //comments
     @Column(name="customer_id")
     private Long customerId;
 
